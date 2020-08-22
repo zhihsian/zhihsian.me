@@ -1,0 +1,55 @@
+baseURL = "https://zhihsian.me/"
+title = "二䖝"
+theme = "simple"
+pygmentsCodeFences = true
+preserveTaxonomyNames = true
+defaultContentLanguage = "zh-hans"
+
+[permalinks]
+  post = "/:filename/"
+
+[languages.zh-hant]
+  languageCode = "zh-Hant"
+  languageName = "繁體中文"
+  contentDir= "content/zh-hant"
+  title = "二䖝"
+  weight = 1
+  [[languages.zh-hant.menu.main]]
+    name = "標籤"
+    weight = 1
+    url = "/tags/"
+  [[languages.zh-hant.menu.main]]
+    name = "歸檔"
+    weight = 2
+    url = "/archives/"
+  [[languages.zh-hant.menu.main]]
+    name = "友鏈"
+    weight = 3
+    url = "/links/"
+  [[languages.zh-hant.menu.main]]
+    name = "關於"
+    weight = 4
+    url = "/about/"
+
+[languages.zh-hans]
+  languageCode = "zh-Hans"
+  languageName = "简体中文"
+  contentDir = "content/zh-hans"
+  title = "二䖝"
+  weight = 2
+  [[languages.zh-hans.menu.main]]
+    name = "标签"
+    weight = 1
+    url = "/tags/"
+  [[languages.zh-hans.menu.main]]
+    name = "归档"
+    weight = 2
+    url = "/archives/"
+  [[languages.zh-hans.menu.main]]
+    name = "友链"
+    weight = 3
+    url = "/links/"
+  [[languages.zh-hans.menu.main]]
+    name = "关于"
+    weight = 4
+    url = "/about/"
